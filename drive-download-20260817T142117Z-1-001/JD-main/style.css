@@ -1,0 +1,97 @@
+/*Usa se o . para fazer referencia à classe.
+Classes são utilizadas para formatação de 
+comportamento de varios elementos*/
+/*
+.titulo-principal{
+	font-family: arial;
+}
+/* # é usado para fazer a formatação de identificsdores.
+O identificador é usado para formatação especifica de um 
+elemento Html
+*/
+#banner {
+	height:100px;/*altura*/
+	width:100%;/*largura*/
+}
+
+.principal {
+	background: blanchedalmond;
+	padding: 30px; /*espaçamento interno*/	
+}
+
+.titulo-centralizado {
+	text-align: center;
+}
+
+#missao {
+	font-size: 20px;
+}
+
+h1{
+	text-align: center;
+	color:darkblue;
+}
+
+p{
+	text-align: center;
+}
+
+em strong{
+	font-size: 20px;
+}
+
+mark{
+	color: darkred;/*cor do fundo*/
+	background-color: whitesmoke;
+	font-family: comic sans;
+}
+
+.beneficios {
+	background: ghostwhite ;
+	padding: 200px;/*espaçamento interno de 20px */
+}
+
+.itens {
+	font-style: italic;
+	padding-top: 5px;
+}
+
+/*tag <li> ocupa 100% da largura da pagina (comportamento block-imagens: não bloqueiam o conteudo,
+ podem ter outros itens na sua lateral (comportamento inline).Dificuldade de alterar espaçamento
+
+ -(comportamento inline-block) :Junção dos comportamento anteriores, bloqueando a largura, mas possivel de definir pois apesar de ser fixa 
+ , é ajustavel.Permite mexer nos espaçamentos internos e externos.
+ */
+ul {
+	display: inline-block;/*ocupar só o tamanho do conteúdo*/
+	width: 20%;
+	margin-right: 7.5%;
+	margin-left: 7.5%;
+	vertical-align: top;
+	padding: 50px;
+}
+
+.imagembeneficios {
+	height:50%;/*altura*/
+	width:70%;/*largura*/
+}
+
+header{
+	background: #5e4343;
+	padding: 20px 0; /*20px cima e baixo e 0 dir e esquerda*/
+}
+
+main{
+	width: 940px;
+	margin: 0 auto;
+}
+
+form{
+	margin 40px 0;
+}
+
+form label{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
